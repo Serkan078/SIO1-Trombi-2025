@@ -1,0 +1,39 @@
+/* Cadre Serkan style Initial D */
+#COBAN {
+    position: relative;
+    background: url("JDM-bg.jpg") center/cover no-repeat;
+    border-radius: 12px;
+    border: 2px solid #ff1a1a;
+    box-shadow:
+        0 0 10px #ff1a1a,
+        0 0 20px #ff1a1a,
+        inset 0 0 20px rgba(255, 0, 0, 0.4);
+    transition: 0.25s ease;
+    overflow: hidden;
+}
+
+/* Néon animé au survol */
+#COBAN:hover {
+    transform: scale(1.06);
+    box-shadow:
+        0 0 15px #ff1a1a,
+        0 0 30px #ff1a1a,
+        0 0 45px #ff1a1a,
+        inset 0 0 30px rgba(255, 0, 0, 0.5);
+}
+
+/* Image dans le cadre */
+#COBAN img {
+    border-radius: 8px;
+    border: 2px solid rgba(255, 0, 0, 0.8);
+    box-shadow: 0 0 12px #ff1a1a;
+}
+
+/* Texte */
+#COBAN p {
+    color: #ff1a1a;
+    font-weight: bold;
+    text-shadow: 0 0 8px #ff1a1a;
+    text-align: center;
+    font-family: "JetBrains Mono", monospace;
+}
